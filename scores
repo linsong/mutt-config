@@ -26,11 +26,6 @@ score "~P" 3
 ## Add a point to messages you replied to (using mutt)
 score "~Q" 3
 
-#score '~N ~C (vincent@exoweb.net\|linsong.qizi@gmail.com)' 10
-
-## add 10 points to mails from kenw, jacky etc
-score '~N ~f ken@exoweb.net' 5
-
 ## add points to Flagged messages
 score "~F" 1 
 
@@ -45,4 +40,6 @@ score "~d <2d" 4
 score "~d <1d" 5
 
 score "~d >1m" -10
+
+
 

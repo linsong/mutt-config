@@ -33,7 +33,7 @@ set check_new = yes
 set resolve
 
 # ask me to confirm before quit
-set quit=ask-yes
+set quit="ask-yes"
 
 set copy                                  # Keep copies of outgoing mail...
 set postpone=ask-yes                       # Ask about postponing.
@@ -115,6 +115,7 @@ source ~/.mutt/fcc-hooks                  # Define fcc-hooks.
 source ~/.mutt/message-hooks              # Define message hooks.
 source ~/.mutt/send-hooks                 # Define send hooks.
 source ~/.mutt/scores                     # Define score rules
+source ~/.mutt/scores.local               # Define local score rules
 
 #
 #  Load the sidebar configuration file if this host has muttng

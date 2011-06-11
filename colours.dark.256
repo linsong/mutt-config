@@ -38,8 +38,8 @@ mono  header    bold         "^(From|Subject|X-Junked-Because|X-Virus-hagbard):"
 
 # Colours for items in the index
 #color index brightwhite   black "~N"
-color index color64         default "~R ( ~C nb@exoweb.net | ~C eng@seravia.com )"
-color index color76   default "~N ~C nb@exoweb.net | ~C eng@seravia.com "
+color index color76   default "~N ( ~C nb@exoweb.net | ~C eng@seravia.com )"
+color index color64   default "~R ( ~C nb@exoweb.net | ~C eng@seravia.com )"
 #color index green        black "~N (~x exoweb\.net | ~h \"^In-[Rr]eply-[Tt]o: .*exoweb\.net\")"
 #color index brightyellow  default "~N (~C vincent@exoweb.net | ~C ant@exoweb.net | ~C linsong.qizi@gmail.com | ~C vincent@qnite.com | ~C vincent@seravia.com)"
 #color index yellow        default "~R (~C vincent@exoweb.net | ~C ant@exoweb.net | ~C linsong.qizi@gmail.com | ~C vincent@qnite.com | ~C vincent@seravia.com)"

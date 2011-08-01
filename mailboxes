@@ -8,5 +8,5 @@
 mailboxes !
 #mailboxes imaps://imap.exoweb.net/INBOX
 #
-mailboxes `for file in $HOME/Mail/maillists/*; do echo -n "=maillists/$(basename $file) "; done `
-mailboxes `for file in $HOME/Mail/rss/*; do echo -n "=rss/$(basename $file) "; done `
+mailboxes `[ -e "$HOME/Mail/maillists" ] && for file in $HOME/Mail/maillists/*; do echo -n "=maillists/$(basename $file) "; done `
+mailboxes `[ -e "$HOME/Mail/rss" ] && for file in $HOME/Mail/rss/*; do echo -n "=rss/$(basename $file) "; done `

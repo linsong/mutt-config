@@ -4,11 +4,12 @@
 
 send-hook . "set signature='fortune ~/.signatures/general|'"
 
-send-hook "~t @seravia\.com|~f @seravia.com|~L vincent@seravia\.com" "my_hdr From: Vincent Wang <vincent@seravia.com> ; my_hdr Reply-To: Vincent Wang <vincent@seravia.com> ; set signature=~/.signatures/seravia"
-
 send-hook "~L linsong.qizi@gmail\.org" "my_hdr From: Vincent Wang <linsong.qizi@gmail.com> ; my_hdr Reply-To: Vincent Wang <linsong.qizi@gmail.com>"
 send-hook "~L vincent@linsong\.org" "my_hdr From: Vincent Wang <vincent@linsong.org> ; my_hdr Reply-To: Vincent Wang <vincent@linsong.org>"
 send-hook "~L wangwei@linsong\.org" "my_hdr From: Wang Wei <wangwei@linsong.org> ; my_hdr Reply-To: Wang Wei <wangwei@linsong.org>"
+
+# disabled after I left seravia
+#send-hook "~t @seravia\.com|~f @seravia.com|~L vincent@seravia\.com" "my_hdr From: Vincent Wang <vincent@seravia.com> ; my_hdr Reply-To: Vincent Wang <vincent@seravia.com> ; set signature=~/.signatures/seravia"
 
 #send-hook "(~x exoweb\.net | ~h \"^In-[Rr]eply-[Tt]o: .*exoweb\.net\")" "my_hdr From: Vincent Wang <vincent@exoweb.net>"
 #send-hook "(~x nordicbet\.com | ~h \"^In-[Rr]eply-[Tt]o: .*nordicbet\.com\")" "my_hdr From: Vincent Wang <vincent@exoweb.net>"
